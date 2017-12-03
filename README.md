@@ -1,6 +1,6 @@
 Models used for the Kaggle competition: https://www.kaggle.com/c/porto-seguro-safe-driver-prediction
 
-Main approach was use and ensemble of different models (XGBoost, LightGBM, Logistic Regression, etc.). Feature engineering was hard as the meaning of the features was not given. Still I tried to discover some useful feature interactions.
+Main approach was use and ensemble of different models (XGBoost, LightGBM, Logistic Regression, etc.). Feature engineering was hard as the meaning of the features was not given. Still I tried to discover some useful feature interactions and mean target encoding was applied to categorical features.
 
 - EDA.ipynb: Exploratory Data Analysis of the project
 - Stacking - Approach 1.ipynb: Stacking predictions of different models.
